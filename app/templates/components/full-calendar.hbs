@@ -1,0 +1,19 @@
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    {{#if view.showFullCalendar}}
+    	<li><a href="#calendar" aria-controls="calendar" role="tab" data-toggle="tab">Weekly Calendar</a></li>
+    {{/if}}
+
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+	  <div role="tabpanel" class="tab-pane active" id="calendar">
+    	<div id='calendar'></div>
+    </div>
+  </div>
+
+</div>
+
